@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let tienVay = prompt("Nhap tien vay: ")
+    let laiSuat = prompt("Nhap lai suat (%): ")
+    let soNam = prompt("Nhap so nam: ")
+   
+    tienVay = Number(tienVay)
+    laiSuat = Number(laiSuat)
+    soNam = Number(soNam)
+    let laiDon = tienVay * laiSuat / 100
+    let tongTien = tienVay + laiDon * soNam
+
+    alert("So tien ca goc lan lai sau " + soNam + " nam: " + tongTien)
+  </script>
+</body>
+</html>
